@@ -82,7 +82,6 @@ namespace Notepad
                 {
                     return;
                 }
-                saveFile = Save.ASaveBloknot(richBox, ref nameFile, ref fullName);
                 Title = nameFile + " - Блокнот";
                 textChanged = false;
             }

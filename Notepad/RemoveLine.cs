@@ -17,7 +17,7 @@ namespace Notepad
             int lineToDelete = number - 1;
             Trace.WriteLine(richTextBox.GetText());
             string richText = "";
-            for (int i = 0; i < lines.GetLength(0); i++)
+            for (int i = 0; i < lines.GetLength(0)-1; i++)
             {
                 if (i != lineToDelete)
                 {
